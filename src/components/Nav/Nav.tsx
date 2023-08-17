@@ -6,8 +6,8 @@ const Nav: React.FC = () => {
   return (
     <nav>
       <Link className="nav--link" to="/">Home</Link>
-      {/* <Link className="nav--link" to="/gallery">Gallery</Link>
-      <Link className="nav--link" to="/contact">Contact</Link> */}
+      <Link className="nav--link" to="/gallery">Gallery</Link>
+      {/* <Link className="nav--link" to="/contact">Contact</Link> */}
     </nav>
   )
 }
