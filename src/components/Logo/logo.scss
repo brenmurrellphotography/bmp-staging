@@ -1,0 +1,17 @@
+@use '../../scss/colors' as colors;
+
+h1 {
+  color: colors.$primary;
+  font-weight: 400;
+  // @media (prefers-color-scheme: dark) {
+  //   color: colors.$primary-alt;
+  // }
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 32px;
+}

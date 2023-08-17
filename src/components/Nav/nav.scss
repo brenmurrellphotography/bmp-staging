@@ -1,0 +1,20 @@
+@use '../../scss/colors' as colors;
+
+nav {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 16px 24px;
+}
+
+.nav--link {
+  display: block;
+  color: colors.$primary;
+  text-decoration: none;
+  font-weight: 800;
+  // @media (prefers-color-scheme: dark) {
+  //   color: colors.$primary-alt;
+  // }
+
+}
