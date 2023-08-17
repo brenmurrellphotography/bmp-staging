@@ -1,17 +1,14 @@
 @use '../../scss/colors' as colors;
 
-h1 {
+.logo {
   color: colors.$primary;
   font-weight: 400;
-  // @media (prefers-color-scheme: dark) {
-  //   color: colors.$primary-alt;
-  // }
-}
-
-.logo {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 8px;
+  
   padding: 13px 32px;
+  font-size: 40px;
+  line-height: 80px;
+  font-family: 'Birthstone Bounce';
+  font-weight: 400;
+  margin: 0;
+  padding: 0 32px;
 }
