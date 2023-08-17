@@ -53,14 +53,19 @@ a {
       display: flex;
       gap: 80px;
     }
+    &__fill {
+      flex: 1;
+      padding-bottom: 64px;
+    }
  }
 
  .rounded {
-  width: 392px;
+  width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
+  max-width: 400px;
 
  }
