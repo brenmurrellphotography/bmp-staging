@@ -6,6 +6,7 @@ import './index.scss'
 const Layout = ({ children }) => (
   <>
     <Header />
+    <div className="spacer"></div>
     {children}
   </>
 )

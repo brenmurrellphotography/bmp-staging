@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Zilla Slab', serif;
-  padding-top: 80px;
   position: relative;
 }
 
@@ -42,6 +41,12 @@ a {
  Move this later
 
  **/
+
+.spacer {
+  height: 80px;
+  display: block;
+  width: 100%;
+}
 
  .simple-grid {
     width: 100%;
