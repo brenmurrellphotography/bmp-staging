@@ -1,5 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import { SEO } from "../components/seo"
 
 const Contact = () => {
   return (
@@ -12,3 +13,5 @@ const Contact = () => {
 }
 
 export default Contact
+
+export const Head: HeadFC = () => <SEO />
