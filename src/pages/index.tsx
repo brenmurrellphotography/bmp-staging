@@ -30,13 +30,12 @@ const IndexPage: React.FC<PageProps> = () => {
               <p>
                 Take a look at our <Link to="/gallery">gallery</Link> page. If you
                 see something you like, give us a&nbsp;
-                <a href="tel:+64274670548">call</a>&nbsp;
-                or&nbsp;
+                <a href="tel:+64274670548">call</a>&nbsp;,
                 <a href="sms:+64274670548?body=I'm interested in one of your art prints">
                   text
-                </a>&nbsp;
+                </a>&nbsp; or use the chat widget below
                 to arrange a booking or an art print
-                today - or visit at us on <a href="https://facebook.com/brenmurrellphotography">Facebook</a>.
+                today - or visit us on <a href="https://facebook.com/brenmurrellphotography">Facebook</a>.
               </p>
           </div>
           <div className="simple-grid__400">
