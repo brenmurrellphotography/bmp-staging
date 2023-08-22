@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkbren_murrell_photography=self.webpackChunkbren_murrell_photography||[]).push([[650],{6865:function(e,l,t){t.r(l);var n=t(7294);l.default=()=>n.createElement("main",null,n.createElement("h2",null,"Contact me"),n.createElement("p",null,"Watch this space closely!"))}}]);
-//# sourceMappingURL=component---src-pages-contact-tsx-8cec391d9780225b53d5.js.map
